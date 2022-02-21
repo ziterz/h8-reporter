@@ -1,0 +1,23 @@
+{
+  "name": "h8-reporter",
+  "version": "1.0.0",
+  "description": "Hacktiv8 Reporter is a library for assessing Hacktiv8 student codes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/ziterz/hacktiv8-reporter",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "dev": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "ziterz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziterz/h8-reporter.git"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  }
+}
